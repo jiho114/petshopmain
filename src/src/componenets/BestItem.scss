@@ -1,0 +1,245 @@
+.bestItem{
+	margin-top: 50px;
+	background: #eee;
+	padding: 50px 30px;
+	h2{
+		text-align: center;
+	}
+	>p{text-align: center; color: #bbb; font-size: 14px;}
+	.best{
+		width: 100%;
+		height: 640px;
+		max-width: 1280px;
+		margin: 30px auto;
+		.flexbox{
+			display: flex;
+			width: 100%;
+			height: 100%;
+			>li{
+				width: 50%;
+				height: 100%;
+				>a{
+					width: 100%;
+					height: 100%;
+					display: block;
+					background: #fff url(../img/best01.jpg) no-repeat center center;
+					.bestsp{
+						width: 100%;
+						height: 100%;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						.bestTextBox{
+							b{
+								font-size: 25px;
+								color: #000;
+							}
+							p{
+								padding-top: 30px;
+								font-size: 14px;
+								color: #555;
+								position: relative;
+								&::before{
+									content:"";
+									width: 50px;
+									height: 1px;
+									background: #555;
+									position: absolute;
+									top: 15px;
+									left: 0
+								}
+							}
+							span{
+								border: 2px solid #333;
+								background: none;
+								color: #555;
+								padding: 5px 10px;
+								position: relative;
+								top: 20px;
+								border-radius: 3px;
+								display: inline-block;
+								overflow: hidden;
+								z-index: 2;
+								&::after{
+									content: "More Btn";
+									width: 0;
+									height: 100%;
+									overflow: hidden;
+									background: #555;
+									padding: 5px 0;
+									text-align: center;
+									color: #fff;
+									position: absolute;
+									top:0;
+									left: 0;
+									z-index: 1;
+									transition: .3s;
+								}
+								&:hover::after{
+									width: 100%;
+								}
+							}
+						}
+					}
+				}
+				.bestbox{
+					width: 100%;
+					ul{
+						display: flex;
+						flex-wrap: wrap;
+						li{
+							width: 50%;
+							height: 320px;
+							
+							a{
+								width: 100%;
+								height: 100%;
+								display: block;
+								padding: 0 70px;
+								background: #ffd0d0;
+								position: relative;
+								.aWrap{
+									padding-top: 80px;
+									width: 100%;
+									height: 150px;
+									b{
+										color: #333;
+										font-size: 22px;
+									}
+									p{
+										font-size: 14px;
+										color: #555;
+										padding-top: 30px;
+										position: relative;
+										letter-spacing: -1px;
+										&::before{
+											content:"";
+											width: 50px;
+											height: 1px;
+											background: #555;
+											position: absolute;
+											top: 15px;
+											left: 0
+										}
+									}
+									>span{
+										width: 100%;
+										height: 100%;
+										position: absolute;
+										top: 0;
+										left: 0;
+										opacity: 0;
+										background-color: rgba(0,0,0,.2);
+										transition: .5s;
+										>i{
+											display: flex;
+											align-items: center;
+											justify-content: center;
+											width: 100%;
+											height: 100%;
+											button{
+												border: 1px solid #fff;
+												color: #fff;
+												background: none;
+												padding: 10px 20px;
+											}
+										}
+									}
+									&:hover span{
+										opacity: 1;
+									}
+								}
+							}
+							&:nth-child(2) a{
+								width: 100%;
+								height: 100%;
+								background:#fbfbfb url(../img/best02.jpg) no-repeat top left/100%;
+							}
+							&:nth-child(3) a{
+								width: 100%;
+								height: 100%;
+								background:#fbfbfb url(../img/best03.jpg) no-repeat top left/100%;
+							}
+						}
+					}
+				}
+			}
+
+		}
+	}
+}
+
+@media  screen and (min-width: 1000px) and (max-width: 1280px) {
+	.bestItem{
+		background: #fff;
+		.best{
+			width: 100%;
+			height: 1280px;
+			background: #fff;
+			.flexbox{
+				display: flex;
+				width: 100%;
+				flex-direction: column;
+				>li{
+					width:100%;
+					
+					a{
+
+					}
+					.bestbox{
+						width: 688.6px;
+						margin: 0 auto;
+
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: 760px) and (max-width: 998px)  {
+	.bestItem{
+		margin-top: 200px;
+		.best{
+			width: 100%;
+			height: 1280px;
+			background: #fff;
+			.flexbox{
+				display: flex;
+				width: 100%;
+				flex-direction: column;
+				>li{
+					width:100%;
+					.bestbox{
+						width: 688.6px;
+						margin: 0 auto;
+
+					}
+				}
+			}
+		}
+	}
+}
+@media  screen  and (max-width: 759px) {
+	.bestItem{
+		margin-top: 200px;
+		.best{
+			width: 100%;
+			height: 1280px;
+			background: #fff;
+			.flexbox{
+				display: flex;
+				width: 100%;
+				flex-direction: column;
+				>li{
+					width: 100%;
+					.bestbox{
+						width: 100%;
+						margin: 0 auto;
+
+
+					}
+				}
+			}
+		}
+	}
+}

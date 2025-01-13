@@ -1,0 +1,63 @@
+[
+  {
+    "id":1,
+    "imageUrl":"/img/cat01.jpg",
+    "description":"깜찍하고 귀여운 고양이",
+    "category":"cat"
+  },
+  {
+    "id":2,
+    "imageUrl":"/img/cat02.jpg",
+    "description":"깜찍하고 귀여운 고양이",
+    "category":"cat"
+  },
+  {
+    "id":3,
+    "imageUrl":"/img/dog01.jpg",
+    "description":"깜찍하고 귀여운 강아지",
+    "category":"dog"
+  },
+  {
+    "id":4,
+    "imageUrl":"/img/cat03.jpg",
+    "description":"깜찍하고 귀여운 고양이",
+    "category":"cat"
+  },
+  {
+    "id":5,
+    "imageUrl":"/img/cat04.jpg",
+    "description":"깜찍하고 귀여운 고양이",
+    "category":"cat"
+  },
+  {
+    "id":6,
+    "imageUrl":"/img/dog02.jpg",
+    "description":"깜찍하고 귀여운 고양이",
+    "category":"dog"
+  },
+  {
+    "id":7,
+    "imageUrl":"/img/dog03.jpg",
+    "description":"깜찍하고 귀여운 고양이",
+    "category":"dog"
+  },
+  {
+    "id":8,
+    "imageUrl":"/img/cat05.jpg",
+    "description":"깜찍하고 귀여운 고양이",
+    "category":"cat"
+  },
+  {
+    "id":9,
+    "imageUrl":"/img/dog04.jpg",
+    "description":"깜찍하고 귀여운 고양이",
+    "category":"dog"
+  },
+  {
+    "id":10,
+    "imageUrl":"/img/dog05.jpg",
+    "description":"깜찍하고 귀여운 고양이",
+    "category":"dog"
+  }
+  
+]

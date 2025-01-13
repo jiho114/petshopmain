@@ -1,0 +1,39 @@
+.tab{
+  margin-top: 50px;
+  .tab-menu{
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    justify-content: center;
+    margin:0 auto;
+    button{
+      width: 50%;
+      border: none;
+      padding: 10px 20px;
+      &.active{
+        background: #40a8f2;
+        color: #fff;
+      }
+    }
+   
+  }
+  .tabList{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 30px;
+    li{
+      .tab-img{
+        height: 170px;
+        overflow: hidden;
+        object-fit: cover;
+        img{width: 100%; height: 100%}
+      }
+      .tab-desc{
+        text-align: center;
+        font-size: 12px;
+       
+      }
+    }
+  }
+}

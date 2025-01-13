@@ -1,0 +1,88 @@
+.signWrap{
+  width: 100%;
+  margin: 150px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  h2{
+    border-bottom: 5px double #ddd;
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: #ccc;
+  }
+  form{
+    .signUpArea{
+      border: none;
+      ul{
+        margin-top: 20px;
+        >li{
+          margin-bottom: 20px;
+          .area-style{
+
+            label{
+              display: block;
+              color: #ccc;
+              margin-bottom: 5px;
+            }
+            input{
+              width: 100%;
+              padding: 20px 30px;
+              border: 1px solid #ddd;
+            }
+            .mes-styel{
+              font-size: 14px;
+            }
+            .success-color{color: green}
+            .error-color{color: red}
+            .help-style{
+              font-size: 12px;
+              color: rgb(105,105,105)
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.id-check-button{
+  margin-top: 10px;
+  border: none;
+  background: #333;
+  color: #fff;
+  padding: 5px 20px;
+}
+#terms-section{
+  color: #666;
+  input{}
+  label{}
+  h3{margin-top: 30px;}
+  .termsBox{
+    border: 1px solid #959595;
+    padding: 2rem;
+    height: 15rem;
+    margin: 1rem 0 2rem;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    p{
+      margin: 20px 0;
+      font-size: 14px;
+    }
+  }
+  >p{
+    span{
+      margin-right: 5px;
+      color: #333;
+    }
+  }
+}
+.submit-section{
+  display: flex;
+  justify-content: center;
+  .submit-style{
+    width: 100%;
+    height: 5rem;
+    background: #858585;
+    color: #fff;
+    font-size: 1.5rem;
+    border: none
+  }
+}
